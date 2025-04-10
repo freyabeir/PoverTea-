@@ -69,7 +69,17 @@
             width: 100%;
         }
 
-        /* Add more styling as needed */
+        /* Chatbot specific styles */
+        .chatbot-section {
+            text-align: center;
+        }
+
+        .chatbot-iframe {
+            width: 100%;
+            height: 500px; /* Adjust height as needed */
+            border: none;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -85,6 +95,7 @@
         <a href="#get-involved">Get Involved</a>
         <a href="#resources">Resources</a>
         <a href="#contact">Contact Us</a>
+        <a href="#chat">Chat with Us</a>
     </nav>
 
     <main>
@@ -171,6 +182,16 @@
                 </div>
                 <button type="submit">Send Message</button>
             </form>
+        </section>
+
+        <section id="chat" class="chatbot-section">
+            <h2>Chat with PoverTea</h2>
+            <p>Ask us your questions about poverty and how you can help!</p>
+            <iframe
+                src="https://agent.jotform.com/0196161cf2e1711aa6bc8bf8aa311d58a42c"
+                class="chatbot-iframe"
+                title="PoverTea Chatbot"
+            ></iframe>
         </section>
     </main>
 
